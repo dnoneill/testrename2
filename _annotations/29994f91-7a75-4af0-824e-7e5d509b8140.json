@@ -1,0 +1,44 @@
+---
+canvas: "https://iiif.bodleian.ox.ac.uk/iiif/canvas/02ddc913-ecab-471e-8ca3-6bd402bff215.json"
+order: 2
+---
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "oa:Annotation",
+    "motivation": [
+        "oa:commenting"
+    ],
+    "resource": [
+        {
+            "@type": "dctypes:Text",
+            "format": "text/html",
+            "chars": "<p>testing stroke width</p>"
+        }
+    ],
+    "on": [
+        {
+            "@type": "oa:SpecificResource",
+            "full": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/02ddc913-ecab-471e-8ca3-6bd402bff215.json",
+            "selector": {
+                "@type": "oa:Choice",
+                "default": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=1145,1565,1075,830"
+                },
+                "item": {
+                    "@type": "oa:SvgSelector",
+                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1144.59918,1564.67602h537.52029v0h537.52029v414.78689v414.78689h-537.52029h-537.52029v-414.78689z\"  id=\"rectangle_3f800c9e-a5fa-48ed-a7f9-6fbf3724ead8\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#ffff00\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                }
+            },
+            "within": {
+                "@id": "https://dnoneill.github.io/testrename2/manifests/iiif.bodleian.ox.ac.uk/iiif/manifest.json",
+                "@type": "sc:Manifest"
+            }
+        }
+    ],
+    "oa:annotatedAt": "2026-08-13T00:27:09.770Z",
+    "@id": "29994f91-7a75-4af0-824e-7e5d509b8140.json",
+    "oa:annotatedBy": [
+        "dnoneill"
+    ]
+}
